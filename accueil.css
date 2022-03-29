@@ -1,18 +1,21 @@
-#logo_accueil {
+#logo_accueil{
     /* Logo accueil */
-position: absolute;
-width: 214px;
-height: 215px;
-left: 25%;
-top: 75px;
-margin-top:25px ;
+    height: 280px;
+    margin: 10px auto;
+    display: block;
 }
 
-h1{
-text-align: center;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-text-align: center;
-color: #000000;
+#container_recherche {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#searchbar_accueil {
+    width: min(300px,70vw);
+    height: 50px;
+}
+
+#submit {
+    width: min(50px,20vw);
 }
