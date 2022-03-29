@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -20,11 +19,11 @@
     </header>
   
     <main>
-
-        <div>
-            <h1>Accueil</h1>
-            <img id="logo_accueil" src="img/O'CESEAT.png">
+        <img id="logo_accueil" src="img/O'CESEAT.png">
+        <div id="container_recherche">
+            <input type="search" name="search" id="searchbar_accueil" placeholder="Votre recherche... (ex: kebab, fastfood...)" required>
+            <input type="submit" id="submit" placeholder="oui">
         </div>
-    <main>
+    </main>
 </body>
 </html>
