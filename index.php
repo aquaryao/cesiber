@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accueil - Cesi-esport</title>
-    <link rel="stylesheet" href="../../Nouveau dossier/cesiber/accueil.css">
+    <title>Accueil - CesEAT</title>
+    <link rel="stylesheet" href="accueil.css">
+    <link rel="stylesheet" href="commun.css">
     
 </head>
 <body> 
@@ -18,12 +19,11 @@
         </div>
     </header>
   
-
     <main>
 
         <div>
             <h1>Accueil</h1>
-            <img src="../../Nouveau dossier/cesiber/img/O'CESEAT.png">
+            <img src="img/O'CESEAT.png">
         </div>
     <main>
 </body>
