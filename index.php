@@ -23,7 +23,7 @@
 
         <div>
             <h1>Accueil</h1>
-            <img src="img/O'CESEAT.png">
+            <img id="logo_accueil" src="img/O'CESEAT.png">
         </div>
     <main>
 </body>
