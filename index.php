@@ -24,6 +24,9 @@
             <input type="search" name="search" id="searchbar_accueil" placeholder="Votre recherche... (ex: kebab, fastfood...)" required>
             <input type="submit" id="submit" placeholder="oui">
         </div>
+
+        <a href="php/logoutAction.php"> déconnexion </a> 
+
     </main>
 </body>
 </html>

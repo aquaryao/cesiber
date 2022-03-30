@@ -1,0 +1,59 @@
+
+#container_formulaire_inscription{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#inscription_titre{
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+#formulaire_inscription{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+.formulaire_inscription_input{
+    background-color: rgb(185, 185, 185);
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+
+}
+
+.formulaire_inscription_input::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: black;
+    opacity: 1; /* Firefox */
+}
+
+
+
+.formulaire_inscription_input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+}
+
+.formulaire_inscription_input::-ms-input-placeholder { /* Microsoft Edge */
+    color: black;
+}
+
+.checkbox_round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.checkbox_round:checked {
+    background-color: gray;
+}
